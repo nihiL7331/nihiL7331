@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #abd200;
+            fill: #fe428e;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #68b587;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #a9fef7;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #68b587;
+      fill: #a9fef7;
     }
     .stagger {
       opacity: 0;
@@ -93,7 +93,7 @@
           height="99%"
           stroke="#e4e2e2"
           width="299"
-          fill="#0a0f0b"
+          fill="#141321"
           stroke-opacity="1"
         />
 
@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="147.31"
+          width="154.51"
           height="8"
           fill="#555555"
         />
@@ -138,9 +138,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="147.31"
+          x="154.51"
           y="0"
-          width="57.93"
+          width="60.76"
           height="8"
           fill="#60AFFE"
         />
@@ -148,9 +148,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="205.24"
+          x="215.26999999999998"
           y="0"
-          width="22.39"
+          width="23.49"
           height="8"
           fill="#f34b7d"
         />
@@ -158,19 +158,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="227.63"
+          x="238.76"
           y="0"
-          width="13.75"
-          height="8"
-          fill="#438eff"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="241.38"
-          y="0"
-          width="14.68"
+          width="14.91"
           height="8"
           fill="#239dad"
         />
@@ -178,11 +168,21 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="246.06"
+          x="243.67"
           y="0"
-          width="13.94"
+          width="14.14"
           height="8"
           fill="#dea584"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="247.80999999999997"
+          y="0"
+          width="12.2"
+          height="8"
+          fill="#e34c26"
         />
       
       
@@ -191,42 +191,42 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 58.92%
+        C 61.80%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#60AFFE" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Odin 23.17%
+        Odin 24.31%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 8.96%
+        C++ 9.40%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#438eff" />
+      <circle cx="5" cy="6" r="5" fill="#239dad" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Objective-C 5.50%
+        Typst 1.96%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#239dad" />
+      <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Typst 1.87%
+        Rust 1.65%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#dea584" />
+      <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 1.58%
+        HTML 0.88%
       </text>
     </g>
   </g></g>
