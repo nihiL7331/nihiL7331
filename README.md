@@ -1,4 +1,6 @@
-![Metrics](/github-metrics.svg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nihiL7331/nihiL7331/master/github-metrics.svg" alt="Metrics">
+</p>
 
 ---
 
